@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cargar Stock</title>
+    <link rel="stylesheet" href="cargar.css">
+</head>
+<body>
+
+<div class="container">
+    <br>
+</div>
+<div class="container">
+    <div class="container mb-5">
+        <div class="row">
+            <form id="productForm">
+                <div class="mb-3">
+                    <label class="form-label"><strong>TIPO</strong> </label>
+                    <input type="text" class="form-control" id="inputtipo" aria-describedby="emailHelp" placeholder="acustica, electrica, electro-acustica, ukelele">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label"><strong>FABRICANTE</strong> </label>
+                    <input type="text" class="form-control" id="inputfabricante" placeholder="fender, gibson, ibanez, etc">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label"><strong>MODELO</strong> </label>
+                    <input type="text" class="form-control" id="inputmodelo" placeholder="stratocaster, RG series, SLG series, etc">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label"><strong>STOCK</strong> </label>
+                    <input type="number" class="form-control" id="inputCantidadCargar" placeholder="Ingresar al stock">
+                </div>
+                <div class="bt">
+                <button type="button" class="btn btn-primary" id="btnadd" onclick="adddata()">Cargar</button>
+                <button type="submit" class="btn btn-primary" id="btnupdate">actualizar datos</button>
+                </div>
+            </form>
+        </div>
+        <hr>
+
+        <table class="table table-border" id="tabledata">
+            <thead>
+            <tr>
+                <th>TIPO</th>
+                <th>FABRICANTE</th>
+                <th>MODELO</th>
+                <th>STOCK</th> 
+                <th>FUNCIONES</th>
+            </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+        <div class="bt">
+        <a href="home.html" id="vi">volver</a>
+    </div>
+    </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
+

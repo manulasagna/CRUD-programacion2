@@ -1,0 +1,68 @@
+@font-face {
+    font-family: comic Arial, Helvetica, sans-serif;
+    src: url(../font/Bright\ DEMO.otf);
+}
+
+*{
+    font-size: 20px;
+    
+}
+body{
+    background-color: #fffcfa;
+    color: #000000;
+}
+.titulo{
+   
+    color: #000000;
+    font-family: comic Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    
+}
+#btn{
+    text-align: center;
+
+  
+  
+}
+#btnRestar{
+    color: #000000;
+    background-color: #fffcfa;
+    border: 1px solid #000000;
+    border-radius: 25px;
+    position: fixed;
+    top: 58%;
+    right: 114px;
+  
+    
+}
+#btnRestar:hover{
+    background-color: #000000;
+    color: #fff;
+
+  
+  
+ 
+}
+#volver{
+    text-align: center;
+}
+#volver a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 25px;
+    transition: all 400ms ease;
+    position: fixed;
+    top: 90%;
+    right: 114px;
+  
+
+    
+}
+#volver a:hover{
+    background-color: #000000;
+    color: #fff;
+}

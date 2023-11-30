@@ -1,0 +1,101 @@
+*{
+    font-family: comic Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+@font-face {
+    font-family: comic Arial, Helvetica, sans-serif;
+    src: url();
+}
+h1{
+    font-family:comic Arial, Helvetica, sans-serif;
+    
+}
+body{
+    background-size: inherit;
+    background-position: center;
+}
+section{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    color: #fffcfa;
+    background-position: center;
+    background-size: 10px;
+
+}
+#contenedor{
+    position: relative;
+    width: 400px;
+    border: 2px solid rgb(225, 220, 220);
+    border-radius: 20px;
+    backdrop-filter: (2px);
+    height: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#contenedor h3{
+font-size: 47px;
+color: #000000;
+text-align: center;
+margin: 0;
+
+}
+.input{
+    position: relative;
+    margin: 10px 0;
+    width: 300px;
+    border-bottom: 3px solid #000000;
+
+
+}
+.input input{
+    width:100% ;
+    height: 47px;
+    background-color: transparent;
+    border: 0lvi;
+    outline: none;
+    font-size: 1rem;
+    padding: - 30px 0 5px;
+    color: #000000;
+    font-size: 1.5rem;
+    
+    
+}
+input[type="text"]::placeholder {
+    color:rgb(0, 0, 0);
+}
+input[type="password"]::placeholder {
+    color:rgb(0, 0, 0); 
+}
+button{
+    width: 100%;
+    height: 45px;
+    border-radius: 40px;
+    background: #000000;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    font-size: 1.5rem;
+    transition: .4s;
+    color:rgb(255, 254, 254);
+
+    
+}
+button:hover{
+    
+    color: #000000;
+    background-color: rgba(0, 0, 0, 0.493);
+    
+}
+.input i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translate(-50%);
+    font-size: 20px;
+}

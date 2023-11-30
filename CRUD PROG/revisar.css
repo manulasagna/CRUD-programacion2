@@ -1,0 +1,53 @@
+*{
+    font-size:20px ;
+}
+
+@font-face {
+    font-family: comic Arial, Helvetica, sans-serif;
+    src: url(../font/Bright\ DEMO.otf);
+}
+#btnvolver{
+    text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 25px;
+  transition: all 400ms ease;
+  position: fixed;
+  top: 32%;
+  right: 110px;
+
+}
+#btnvolver:hover{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+#titulo{
+    color: #000000;
+    font-family: comic Arial, Helvetica, sans-serif;
+    font-size: 70px;
+}
+#aquiestaelboton{
+    text-align: center;
+}
+body{
+    
+    background-color: #fffcfa;
+}
+input {
+    padding: 8px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    margin-bottom: 10px;
+
+}
+label{
+    font-family: comic Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 30px;
+}
+#tabledata th{
+    color: #000000;
+}
